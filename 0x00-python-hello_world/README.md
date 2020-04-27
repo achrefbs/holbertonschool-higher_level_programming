@@ -8,3 +8,6 @@
 7. Copy - Cut - Paste
 8. print object-oriented programming with Python, followed by a new line.
 9. a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+11. a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
+12. a script that compiles a Python script file.
+13. Python function def magic_calculation(a, b)
