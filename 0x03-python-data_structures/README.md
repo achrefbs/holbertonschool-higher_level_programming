@@ -5,3 +5,4 @@
 4 - a function that replaces an element in a list at a specific position without modifying the original list (like in C).
 5 - a function that removes all characters c and C from a string.
 6 - a function that prints a matrix of integers.
+9 - a function that finds the biggest integer of a list.
