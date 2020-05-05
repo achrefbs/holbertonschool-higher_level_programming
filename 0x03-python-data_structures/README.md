@@ -6,6 +6,7 @@
 5 - a function that removes all characters c and C from a string.
 6 - a function that prints a matrix of integers.
 7 - a function that adds 2 tuples.
+8 - a function that returns a tuple with the length of a string and its first character.
 9 - a function that finds the biggest integer of a list.
 10 - a function that finds all multiples of 2 in a list.
 11 - a function that deletes the item at a specific position in a list.
