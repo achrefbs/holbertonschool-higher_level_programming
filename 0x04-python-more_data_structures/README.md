@@ -9,3 +9,4 @@
 8 - a function that deletes a key in a dictionary.
 9 - a function that returns a new dictionary with all values multiplied by 2.
 10 - a function that returns a key with the biggest integer value.
+12 - a function def roman_to_int(roman_string): that converts a Roman numeral to an integer.
