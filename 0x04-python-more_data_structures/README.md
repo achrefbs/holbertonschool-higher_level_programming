@@ -6,3 +6,4 @@
 5 - a function that returns the number of keys in a dictionary.
 6 - a function that prints a dictionary by ordered keys.
 7 - a function that replaces or adds key/value in a dictionary.
+8 - a function that deletes a key in a dictionary.
