@@ -4,3 +4,4 @@
 3 - a function that returns a set of common elements in two sets.
 4 - a function that returns a set of all elements present in only one set.
 5 - a function that returns the number of keys in a dictionary.
+6 - a function that prints a dictionary by ordered keys.
