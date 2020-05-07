@@ -11,3 +11,4 @@
 10 - a function that returns a key with the biggest integer value.
 11 - a function that returns a list with all values multiplied by a number without using any loops.
 12 - a function def roman_to_int(roman_string): that converts a Roman numeral to an integer.
+14 - a function that computes the square value of all integers of a matrix using map.
