@@ -6,6 +6,6 @@
 5-raise_exception.py - a function that raises a type exception.
 6-raise_exception_msg.py - a function that raises a name exception with a message.
 100-safe_print_integer_err.py - a function that prints an integer.
-101-safe_function.py
+101-safe_function.py - a function that executes a function safely.
 102-magic_calculation.py
 103-python.c
