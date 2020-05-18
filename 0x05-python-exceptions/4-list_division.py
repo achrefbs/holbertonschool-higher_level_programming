@@ -9,6 +9,7 @@ def list_division(my_list_1, my_list_2, list_length):
         except TypeError:
             print('wrong type')
             i += 1
+            r = 0
             continue
         except ZeroDivisionError:
             print('division by 0')
@@ -18,6 +19,7 @@ def list_division(my_list_1, my_list_2, list_length):
         except IndexError:
             print('out of range')
             i += 1
+            r = 0
             continue
         finally:
             r_list.append(r)
