@@ -38,17 +38,45 @@ def next_node(self, value):
     else:
         self.__next_node = value
 
-"""
+
 class SinglyLinkedList:
     """ """
     def __init__(self):
-        self.__head = Node
+        self.__head = None
+
     def sorted_insert(self, value):
+        new_node = Node
+        new_node.next_node = None
+        new_node.data = value
+        if self.__head == None:
+            new_node.next_node = self.__head
+            self.__head = new_node
+        elif self.__head.data >= new_node.data:
+            new_node.next_node = self.__head
+            self.__head = new_node
+        else:
+            cur_node = self.__head
+            while cur_node.next_node.data < new_node.data:
+                cur_node = cur_node.__next_node
+            new_node.next_node = cur_node.next_node
+            cur_node.next_node = new_node
+    
+    def __str__(self):
         while self.__head != None:
             self.__head == self.__head.next_node
-            if value > self.__head.data and value < self.__head.next_node.data:
-                break
-        self.__head.data = value
-        self.__head
-        """
-        
+            return str(self.__head.data)
+            
+
+sll = SinglyLinkedList()
+sll.sorted_insert(2)
+sll.sorted_insert(5)
+sll.sorted_insert(3)
+sll.sorted_insert(10)
+sll.sorted_insert(1)
+sll.sorted_insert(-4)
+sll.sorted_insert(-3)
+sll.sorted_insert(4)
+sll.sorted_insert(5)
+sll.sorted_insert(12)
+sll.sorted_insert(3)
+print(sll)
