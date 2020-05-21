@@ -1,0 +1,42 @@
+Using "add_integer" from "0-add_integer"
+----------------------------------------
+
+import add_integer:
+    >>> add_integer = __import__('0-add_integer').add_integer
+
+test with 2 integers:
+    >>> add_integer(1, 2)
+    3
+
+test with 2 floats:
+    >>> add_integer(10.6, 10.36)
+    20
+
+test with integer and float:
+    >>> add_integer(5, 5.32)
+    10
+
+test with negative number:
+    >>> add_integer(100.3, -2)
+    98
+
+test with non(integers/floats):
+    >>> add_integer(4, "school")
+    Traceback (most recent call last):
+        ...
+    TypeError: b must be an integer
+
+    >>> add_integer("test", 4)
+    Traceback (most recent call last):
+        ...
+    TypeError: a must be an integer
+
+test with None:
+    >>> add_integer(None)
+    Traceback (most recent call last):
+        ...
+    TypeError: a must be an integer
+
+test auto b:
+    >>> add_integer(2.2)
+    100
