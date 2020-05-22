@@ -1,4 +1,4 @@
-Using "matrix_divided" from "1-matrix_divided"
+Using "matrix_divided" from "2-matrix_divided"
 ----------------------------------------------
 
 import matrix_divided:
