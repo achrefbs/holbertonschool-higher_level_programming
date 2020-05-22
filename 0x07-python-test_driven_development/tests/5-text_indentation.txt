@@ -1,0 +1,9 @@
+
+import text_indentation:
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+tests:
+    >>> text_indentation("test? azer")
+    test
+    <BLANK_LINE>
+    azer
