@@ -1,5 +1,4 @@
 import unittest
-import pep8
 from models.base import Base
 
 
@@ -12,6 +11,7 @@ class TestBase(unittest.TestCase):
         self.assertEqual(Base().id, 1)
         self.assertEqual(Base().id, 2)
         self.assertEqual(Base().id, 3)
+        self.assertEqual(Base().id, 4)
 
 if __name__ == '__main__':
     unittest.main()
