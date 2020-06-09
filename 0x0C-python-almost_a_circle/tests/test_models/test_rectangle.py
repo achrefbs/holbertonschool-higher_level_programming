@@ -21,6 +21,6 @@ class TestRectangle(unittest.TestCase):
     def test_input(self):
         with self.assertRaises(TypeError):
             Rectangle(10, "2")
-    
+
 if __name__ == '__main__':
     unittest.main()
