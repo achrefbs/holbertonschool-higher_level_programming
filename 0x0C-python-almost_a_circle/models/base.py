@@ -51,6 +51,9 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
-        with open(cls.__name__ + ".json", "r") as f:
-            return [cls.create(**dictionary) for
-                    dictionary in cls.from_json_string(f.read())]
+        try:
+            with open(cls.__name__ + ".json", "r") as f:
+                return [cls.create(**dictionary) for
+                        dictionary in cls.from_json_string(f.read())]
+        except FileNotFoundError:
+            return []
