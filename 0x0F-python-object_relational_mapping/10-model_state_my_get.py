@@ -16,7 +16,7 @@ if __name__ == "__main__":
     Base.metadata.create_all(engine)
     session = Session(engine)
     state = session.query(State).order_by(
-            State.id).filter(State.name.contains(name)).first()
+            State.id).filter(State.name == name).first()
     if state is None:
         print('Not found')
     else:
