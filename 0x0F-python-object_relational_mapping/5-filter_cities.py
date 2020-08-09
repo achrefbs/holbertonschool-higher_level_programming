@@ -24,15 +24,14 @@ if __name__ == "__main__":
                     cities.name
                     FROM cities INNER JOIN states
                     ON cities.state_id=states.id
-                    WHERE states.name=%s""", (statename,))
+                    WHERE states.name=%s ORDER BY cities.id""", (statename,))
     rows = cursor.fetchall()
     for row in rows:
         for col in row:
             print(col, end='')
         if rows.index(row) < len(rows) - 1:
             print(end=', ')
-        else:
-            print()
 
+    print()
     cursor.close()
     db.close()
