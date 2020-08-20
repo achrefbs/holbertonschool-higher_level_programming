@@ -10,3 +10,5 @@
 - a Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response.
 # 5:
 - a Bash script that takes in a URL, sends a POST request to the passed URL, and displays the body of the response.
+# 7:
+- a Bash script that sends a request to a URL passed as an argument, and displays only the status code of the response.
