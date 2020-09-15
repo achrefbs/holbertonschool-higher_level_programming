@@ -1,2 +1,1 @@
-# 0. First constant, first print:
-- a script that prints “Javascript is amazing”
+JavaScript ("JS" for short) is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project), the Mozilla Foundation, and the Mozilla Corporation.
