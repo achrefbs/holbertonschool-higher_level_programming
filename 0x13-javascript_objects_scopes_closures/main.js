@@ -1,6 +1,5 @@
 #!/usr/bin/node
-const nbOccurences = require('./7-occurrences').nbOccurences;
+const esrever = require('./8-esrever').esrever;
 
-console.log(nbOccurences([1, 2, 3, 4, 5, 6], 3));
-console.log(nbOccurences([3, 2, 3, 4, 5, 3, 3], 3));
-console.log(nbOccurences(["H", 12, "c", "H", "Holberton", 8], "H"));
+console.log(esrever([1, 2, 3, 4, 5]));
+console.log(esrever(["Holberton", 89, { id: 12 }, "String"]));
