@@ -1,0 +1,10 @@
+#!/usr/bin/node
+const request = require('request');
+
+request('https://swapi-api.hbtn.io/api/people/18/', function (err, res, body) {
+  if (err) {
+    console.log(err);
+  }
+  const json = JSON.parse(body);
+  console.log(json.films.length);
+});
